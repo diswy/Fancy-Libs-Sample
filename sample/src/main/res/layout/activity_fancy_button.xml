@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="5dp"
+    tools:context="com.xiaofu.fancy.activity.FancyButtonActivity">
+
+
+    <com.xiaofu.fancylibs.view.FancyButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        app:fb_text="FancyButton" />
+
+    <com.xiaofu.fancylibs.view.FancyButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        app:fb_shape="arc"
+        app:fb_text="半圆样式" />
+
+    <com.xiaofu.fancylibs.view.FancyButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        app:fb_shape="rect"
+        app:fb_text="矩形模式" />
+
+    <com.xiaofu.fancylibs.view.FancyButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        app:fb_border_radius="12dp"
+        app:fb_shape="round_rect"
+        app:fb_text="自定义圆角度数"
+        app:fb_text_bold="true" />
+
+    <com.xiaofu.fancylibs.view.FancyButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        app:fb_border_radius="12dp"
+        app:fb_bg_color="#ff8c00"
+        app:fb_hover_color="#ff6347"
+        app:fb_shape="round_rect"
+        app:fb_text="自定义背景颜色和按压颜色"
+        app:fb_text_bold="true" />
+
+    <com.xiaofu.fancylibs.view.FancyButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        app:fb_border_radius="12dp"
+        app:fb_bg_color="#ff8c00"
+        app:fb_hover_color="#ff6347"
+        app:fb_text_size="24sp"
+        app:fb_text_color="#000080"
+        app:fb_shape="round_rect"
+        app:fb_text="按钮字体颜色及大小"
+        app:fb_text_bold="true" />
+
+    <com.xiaofu.fancylibs.view.FancyButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:fb_border_width="2dp"
+        app:fb_border_color="#333333"
+        app:fb_showBorder="true"
+        app:fb_text_color="#333"
+        app:fb_bg_color="#00000000"
+        app:fb_hover_color="#86000000"
+        app:fb_text="显示边框默认隐藏"/>
+
+</LinearLayout>
